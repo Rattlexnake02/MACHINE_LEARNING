@@ -1,0 +1,81 @@
+body {
+    font-family: Arial;
+    background: #eef2f3;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.input-box, .output-box {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.result-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+
+    background: linear-gradient(135deg, #ffe8f0, #d5e8ff, #e3ffd9);
+    background-size: 300% 300%;
+    animation: moveBg 20s ease infinite;
+}
+
+@keyframes moveBg {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.input-box, .output-box {
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+button {
+    background: #ff76b0;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
